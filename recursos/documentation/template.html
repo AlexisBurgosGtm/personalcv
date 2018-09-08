@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title></title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets/css/demo.css" rel="stylesheet" />
+</head>
+
+<body class="template-page sidebar-collapse">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top " color-on-scroll="400">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
+                    Now Ui Kit
+                </a>
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pablo">
+                            <p>Link</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pablo">
+                            <p>Link</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                            <p class="d-lg-none d-xl-none">Twitter</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+                            <i class="fa fa-facebook-square"></i>
+                            <p class="d-lg-none d-xl-none">Facebook</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                            <p class="d-lg-none d-xl-none">Instagram</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="wrapper">
+        <div class="page-header">
+            <div class="page-header-image" data-parallax="true">
+            
+            </div>
+        </div>
+        <div class="section">
+                <div class="row">
+                        <input type="text" class="form-control" id="telefono">
+                        <input type="text" id="compania" class="form-control">
+                        <button class="btn btn-default" value="Enviar" onclick="fcn_compania();">
+                    </div>
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://www.creative-tim.com">
+                                Creative Tim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://presentation.creative-tim.com">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://blog.creative-tim.com">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
+                                MIT License
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>, Designed by
+                    <a href="http://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script>
+        function fcn_compania(){
+            var rangos = [[30000000,32289999,"TIGO"],
+        [32290000,32299999,"CLARO"],
+        [32300000,33099999,"TIGO"],
+        [34000000,34499999,"MOVISTAR"],
+        [40000000,40999999,"TIGO"],
+        [41000000,42999999,"CLARO"],
+        [43000000,44759999,"MOVISTAR"],
+        [44760000,46999999,"TIGO"],
+        [47000000,47729999,"CLARO"],
+        [47730000,48199999,"TIGO"],
+        [48200000,48219999,"UNITEL"],
+        [48220000,50099999,"TIGO"],
+        [50100000,50199999,"CLARO"],
+        [50200000,50299999,"MOVISTAR"],
+        [50300000,50699999,"TIGO"],
+        [50700000,51099999,"MOVISTAR"],
+        [51100000,51399999,"CLARO"],
+        [51400000,51499999,"MOVISTAR"],
+        [51500000,51999999,"TIGO"],
+        [52000000,52099999,"TIGO"],
+        [52100000,52999999,"MOVISTAR"],
+        [53000000,53099999,"TIGO"],
+        [53100000,53119999,"CLARO"],
+        [53120000,53139999,"MOVISTAR"],
+        [53140000,53899999,"TIGO"],
+        [53900000,54099999,"MOVISTAR"],
+        [54100000,54999999,"CLARO"],
+        [55000000,55099999,"MOVISTAR"],
+        [55100000,55179999,"CLARO"],
+        [55180000,55199999,"MOVISTAR"],
+        [55210000,55299999,"TIGO"],
+        [55310000,55399999,"CLARO"],
+        [55400000,55429999,"MOVISTAR"],
+        [55430000,55449999,"CLARO"],
+        [55450000,55499999,"MOVISTAR"],
+        [55500000,55539999,"TIGO"],
+        [55540000,55799999,"CLARO"],
+        [55800000,55819999,"TIGO"],
+        [55820000,55999999,"CLARO"],
+        [56000000,56089999,"MOVISTAR"],
+        [56100000,56399999,"CLARO"],
+        [56400000,56899999,"MOVISTAR"],
+        [56900000,56999999,"CLARO"],
+        [57000000,57099999,"TIGO"],
+        [57100000,57189999,"CLARO"],
+        [57190000,57899999,"TIGO"],
+        [57900000,57999999,"MOVISTAR"],
+        [58000000,58099999,"TIGO"],
+        [58100000,58189999,"CLARO"],
+        [58190000,58199999,"TIGO"],
+        [58200000,58799999,"CLARO"],
+        [58800000,59099999,"TIGO"],
+        [59100000,59149999,"CLARO"],
+        [59150000,59179999,"MOVISTAR"],
+        [59180000,59199999,"TIGO"],
+        [59200000,59899999,"CLARO"],
+        [59900000,59999999,"TIGO"]],
+        lengthRangos = rangos.length;
+        
+           // $("#formulario").on("submit",function(ev){
+                var num = $("#telefono").val(), 
+                    len = num.length, 
+                    nnum = parseInt(num,10), 
+                    found = false;
+        
+             //   ev.preventDefault();
+                
+                if (len == 8 ) {
+                    for (var i = lengthRangos - 1; i >= 0; i--) {
+                        if (rangos[i][0] <= nnum && nnum <= rangos[i][1]) {
+                            $("#compania").val(rangos[i][2]);
+                            found = true;
+                        }
+                    };
+                    if (!found) {
+                        $("#compania").val("No Disponible");
+                    }
+        
+                } else {
+                    $("#compania").val("Ingrese 8 d�gitos");
+                }
+                // $("#telefono").val("");
+            };
+        
+        //}());
+      
+        </script>
+
+<!--   Core JS Files   -->
+<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="../assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="../assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+
+</html>

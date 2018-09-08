@@ -1,0 +1,18 @@
+{
+  "name": "express-sales",
+  "version": "0.0.1",
+  "description": "Pwa para consulta de datos enlazados por json",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mssql": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Alexis Burgos",
+  "license": "ISC"
+}
